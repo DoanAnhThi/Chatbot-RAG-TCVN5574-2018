@@ -1,0 +1,1055 @@
+[
+  {
+    "id": 1,
+    "question_vi": "TCVN 5574:2018 áp dụng cho loại kết cấu nào?",
+    "answer_key_vi": "Tiêu chuẩn áp dụng cho thiết kế kết cấu bê tông và bê tông cốt thép toàn khối hoặc lắp ghép trong công trình xây dựng dân dụng và công nghiệp, làm việc chủ yếu trong điều kiện nhiệt độ bình thường.",
+    "eval_note": "Câu trả lời phải nêu rõ: (1) kết cấu bê tông và bê tông cốt thép; (2) dùng cho thiết kế; (3) phạm vi là công trình xây dựng; (4) điều kiện làm việc bình thường.",
+    "section_hint": "Phần phạm vi áp dụng, đầu tiêu chuẩn"
+  },
+  {
+    "id": 2,
+    "question_vi": "Những trường hợp nào không thuộc phạm vi áp dụng trực tiếp của TCVN 5574:2018?",
+    "answer_key_vi": "Các kết cấu làm việc ở nhiệt độ cao, môi trường ăn mòn đặc biệt, kết cấu ứng suất trước đặt yêu cầu riêng, hoặc kết cấu có tải trọng động đặc biệt phải tham khảo tiêu chuẩn/chỉ dẫn khác hoặc bổ sung yêu cầu.",
+    "eval_note": "Phải liệt kê được các trường hợp đặc biệt: nhiệt độ cao, môi trường xâm thực mạnh, kết cấu đặc biệt, tải trọng động.",
+    "section_hint": "Phần phạm vi, điều khoản loại trừ"
+  },
+  {
+    "id": 3,
+    "question_vi": "Theo TCVN 5574:2018, việc thiết kế kết cấu bê tông cốt thép phải tuân thủ nguyên tắc chung nào?",
+    "answer_key_vi": "Thiết kế phải bảo đảm an toàn chịu lực, độ bền lâu và khả năng sử dụng bình thường của công trình trong suốt thời hạn tính toán, phù hợp với các trạng thái giới hạn quy định.",
+    "eval_note": "Các từ khóa cần có: an toàn, bền lâu, sử dụng bình thường, suốt thời hạn, trạng thái giới hạn.",
+    "section_hint": "Phần nguyên tắc chung, mục yêu cầu cơ bản"
+  },
+  {
+    "id": 4,
+    "question_vi": "TCVN 5574:2018 quy định những tài liệu viện dẫn nào cần đọc kèm?",
+    "answer_key_vi": "Tiêu chuẩn yêu cầu sử dụng đồng thời các tiêu chuẩn về tải trọng và tác động, tiêu chuẩn vật liệu bê tông và cốt thép, và các tiêu chuẩn kết cấu liên quan có nêu trong phần tài liệu viện dẫn.",
+    "eval_note": "Câu trả lời phải nhấn mạnh: cần kết hợp với tiêu chuẩn tải trọng và vật liệu; không cần nêu số hiệu chính xác nếu không có.",
+    "section_hint": "Phần tài liệu viện dẫn"
+  },
+  {
+    "id": 5,
+    "question_vi": "Trong TCVN 5574:2018, khái niệm 'trạng thái giới hạn' dùng để làm gì trong thiết kế?",
+    "answer_key_vi": "Trạng thái giới hạn được dùng để kiểm tra kết cấu theo hai nhóm: trạng thái giới hạn thứ nhất về khả năng chịu lực và trạng thái giới hạn thứ hai về khả năng sử dụng, nhằm bảo đảm kết cấu làm việc an toàn và tiện dụng.",
+    "eval_note": "Phải tách được 2 nhóm TTGH1 (chịu lực) và TTGH2 (sử dụng).",
+    "section_hint": "Phần nguyên tắc tính toán theo trạng thái giới hạn"
+  },
+  {
+    "id": 6,
+    "question_vi": "Trạng thái giới hạn thứ nhất trong TCVN 5574:2018 thường kiểm tra những gì?",
+    "answer_key_vi": "TTGH1 kiểm tra khả năng chịu lực cuối cùng của cấu kiện và kết cấu: chịu uốn, chịu nén, chịu kéo, chịu cắt, chọc thủng, ổn định và khả năng chịu tổ hợp nội lực bất lợi.",
+    "eval_note": "Cần có ý: kiểm tra chịu lực cuối cùng, kể tên vài dạng: uốn, nén, cắt, chọc thủng.",
+    "section_hint": "Mục tính toán TTGH1"
+  },
+  {
+    "id": 7,
+    "question_vi": "Trạng thái giới hạn thứ hai trong TCVN 5574:2018 kiểm soát những chỉ tiêu nào?",
+    "answer_key_vi": "TTGH2 kiểm soát biến dạng, độ võng, mở rộng vết nứt, và các yêu cầu về sử dụng bình thường để không ảnh hưởng công năng và độ bền của công trình.",
+    "eval_note": "Từ khóa: biến dạng/độ võng, nứt, sử dụng bình thường.",
+    "section_hint": "Mục tính toán TTGH2"
+  },
+  {
+    "id": 8,
+    "question_vi": "Khi thiết kế theo TCVN 5574:2018 phải sử dụng tải trọng và tổ hợp tải trọng theo tiêu chuẩn nào?",
+    "answer_key_vi": "Tải trọng và tổ hợp tải trọng phải lấy theo tiêu chuẩn tải trọng hiện hành của Việt Nam (ví dụ TCVN về tải trọng và tác động), sau đó nội lực tương ứng được dùng trong tính toán bê tông cốt thép.",
+    "eval_note": "Phải nói rõ: tải trọng không nằm trong 5574 mà lấy ở tiêu chuẩn tải trọng rồi đưa vào tính.",
+    "section_hint": "Phần quy định chung, liên hệ tiêu chuẩn tải trọng"
+  },
+  {
+    "id": 9,
+    "question_vi": "Theo TCVN 5574:2018, khi xét đến độ bền lâu của kết cấu bê tông cốt thép cần chú ý điều gì?",
+    "answer_key_vi": "Cần chọn cấp bê tông, lớp bảo vệ cốt thép, mác vữa và các biện pháp chống xâm thực phù hợp với môi trường xung quanh để bảo đảm kết cấu không bị ăn mòn, không giảm khả năng chịu lực theo thời gian.",
+    "eval_note": "Nhắc được: lớp bảo vệ, cấp bê tông theo môi trường.",
+    "section_hint": "Phần yêu cầu độ bền, lớp bảo vệ"
+  },
+  {
+    "id": 10,
+    "question_vi": "Lớp bê tông bảo vệ cốt thép trong kết cấu theo TCVN 5574:2018 được xác định dựa trên những yếu tố nào?",
+    "answer_key_vi": "Lớp bảo vệ phụ thuộc vào điều kiện môi trường (khô, ẩm, ăn mòn), loại cấu kiện (dầm, cột, bản), đường kính cốt thép và yêu cầu thi công, để đảm bảo cốt thép không bị ăn mòn và làm việc đúng giả thiết.",
+    "eval_note": "Phải nêu ít nhất 3 yếu tố: môi trường, loại cấu kiện, đường kính thép.",
+    "section_hint": "Bảng/lưu ý về lớp bảo vệ cốt thép"
+  },
+  {
+    "id": 11,
+    "question_vi": "TCVN 5574:2018 cho phép dùng những loại bê tông nào trong thiết kế?",
+    "answer_key_vi": "Tiêu chuẩn cho phép dùng bê tông nặng thông thường và có thể dùng bê tông nhẹ, bê tông đặc biệt nếu có các chỉ tiêu cơ lý tương ứng và được tính toán theo yêu cầu của tiêu chuẩn.",
+    "eval_note": "Nhắc được bê tông nặng là chính, bê tông đặc biệt phải có chỉ tiêu.",
+    "section_hint": "Phần vật liệu bê tông"
+  },
+  {
+    "id": 12,
+    "question_vi": "Cường độ tính toán của bê tông trong TCVN 5574:2018 được suy ra từ chỉ tiêu nào của bê tông?",
+    "answer_key_vi": "Cường độ tính toán của bê tông được xác định từ mác hoặc cấp độ bền nén của bê tông, có xét đến hệ số điều kiện làm việc và hệ số an toàn vật liệu.",
+    "eval_note": "Phải có: từ mác/cấp độ bền → cường độ tính toán; cộng thêm hệ số an toàn.",
+    "section_hint": "Phần đặc trưng tính toán vật liệu"
+  },
+  {
+    "id": 13,
+    "question_vi": "Cốt thép dùng trong kết cấu theo TCVN 5574:2018 phải thỏa mãn yêu cầu gì?",
+    "answer_key_vi": "Cốt thép phải có giới hạn chảy, độ dẻo và tính hàn phù hợp; phải dùng thép theo tiêu chuẩn vật liệu hiện hành và lấy cường độ tính toán theo quy định của tiêu chuẩn.",
+    "eval_note": "Nêu được yêu cầu về cơ tính và dẫn chiếu tiêu chuẩn vật liệu.",
+    "section_hint": "Phần vật liệu cốt thép"
+  },
+  {
+    "id": 14,
+    "question_vi": "Theo TCVN 5574:2018, khi tính toán cấu kiện chịu uốn thuần túy thì giả thiết làm việc của bê tông và cốt thép như thế nào?",
+    "answer_key_vi": "Giả thiết mặt cắt phẳng, bê tông vùng nén làm việc đến ứng suất cho phép theo biểu đồ quy định, bê tông vùng kéo thường bỏ qua, cốt thép chịu kéo và chịu nén làm việc đàn dẻo theo cường độ tính toán.",
+    "eval_note": "Bắt buộc có: mặt cắt phẳng; bỏ bê tông vùng kéo; thép làm việc theo cường độ tính toán.",
+    "section_hint": "Phần giả thiết tính cấu kiện chịu uốn"
+  },
+  {
+    "id": 15,
+    "question_vi": "Vì sao trong TCVN 5574:2018 thường bỏ qua bê tông vùng kéo khi tính uốn?",
+    "answer_key_vi": "Vì bê tông vùng kéo dễ nứt và khả năng chịu kéo nhỏ so với cốt thép, nên để tính toán an toàn và đơn giản người ta bỏ qua phần chịu lực này.",
+    "eval_note": "Nêu được lý do 'dễ nứt' và 'khả năng chịu kéo nhỏ'.",
+    "section_hint": "Giải thích trong phần giả thiết tính"
+  },
+  {
+    "id": 16,
+    "question_vi": "Khi cấu kiện chịu nén lệch tâm, TCVN 5574:2018 yêu cầu xét đến những thành phần nội lực nào?",
+    "answer_key_vi": "Phải xét đồng thời lực nén dọc và mô men uốn do lệch tâm, xác định ứng suất trong bê tông vùng nén và lực trong cốt thép để bảo đảm không vượt khả năng chịu nén lệch tâm cho phép.",
+    "eval_note": "Phải có 2 nội lực: N và M; và mục tiêu: không vượt khả năng.",
+    "section_hint": "Phần cấu kiện chịu nén lệch tâm"
+  },
+  {
+    "id": 17,
+    "question_vi": "Trong TCVN 5574:2018, cấu kiện chịu cắt được tính toán theo nguyên tắc gì?",
+    "answer_key_vi": "Nội lực cắt phải được bê tông và cốt đai (hoặc cốt xiên) cùng tham gia chịu; nếu nội lực cắt vượt khả năng bê tông chịu cắt thì phải bố trí cốt đai đủ theo công thức của tiêu chuẩn.",
+    "eval_note": "Từ khóa: bê tông + cốt đai cùng chịu; nếu vượt thì tăng đai.",
+    "section_hint": "Mục tính toán chịu cắt, chọc thủng"
+  },
+  {
+    "id": 18,
+    "question_vi": "TCVN 5574:2018 có quy định gì về đường kính tối thiểu của cốt đai trong dầm?",
+    "answer_key_vi": "Tiêu chuẩn quy định đường kính cốt đai tối thiểu theo đường kính cốt dọc và theo loại cấu kiện để bảo đảm khả năng neo và chống cắt; giá trị cụ thể xem bảng quy định.",
+    "eval_note": "Vì không trích được số cụ thể nên câu trả lời phải nói 'xem bảng quy định' và mục đích: chống cắt, neo.",
+    "section_hint": "Bảng cấu tạo cốt đai dầm"
+  },
+  {
+    "id": 19,
+    "question_vi": "Làm thế nào để kiểm soát độ võng của dầm bê tông cốt thép theo TCVN 5574:2018?",
+    "answer_key_vi": "Có thể kiểm tra độ võng theo tính toán dựa trên tải trọng sử dụng và độ cứng cấu kiện, hoặc bảo đảm các tỷ lệ cấu tạo (nhịp/chiều cao) và hàm lượng cốt thép để độ võng không vượt quá giá trị cho phép.",
+    "eval_note": "Cần nêu 2 hướng: tính toán hoặc tuân thủ cấu tạo giới hạn.",
+    "section_hint": "TTGH2 – kiểm tra võng"
+  },
+  {
+    "id": 20,
+    "question_vi": "Theo TCVN 5574:2018, việc kiểm tra vết nứt trong cấu kiện nhằm mục đích gì?",
+    "answer_key_vi": "Nhằm bảo đảm độ bền lâu của cốt thép và bê tông, tránh thấm và đảm bảo yêu cầu kiến trúc, nên phải giới hạn chiều rộng vết nứt không vượt quá giá trị cho phép.",
+    "eval_note": "Từ khóa: bảo vệ cốt thép, thấm, giới hạn chiều rộng nứt.",
+    "section_hint": "TTGH2 – kiểm tra nứt"
+  },
+  {
+    "id": 21,
+    "question_vi": "Trong TCVN 5574:2018, dầm liên tục được tính nội lực theo nguyên tắc nào?",
+    "answer_key_vi": "Dầm liên tục được tính như hệ siêu tĩnh chịu tải, xác định nội lực bằng phương pháp tính kết cấu phù hợp (phần tử hữu hạn, hệ dầm liên tục) rồi dùng nội lực đó để thiết kế cốt thép tại từng tiết diện.",
+    "eval_note": "Phải nói: dầm liên tục → hệ siêu tĩnh → lấy nội lực để thiết kế.",
+    "section_hint": "Phần cấu kiện uốn – dầm"
+  },
+  {
+    "id": 22,
+    "question_vi": "Khi bố trí cốt thép chịu lực cho bản một phương theo TCVN 5574:2018 cần tuân theo yêu cầu gì?",
+    "answer_key_vi": "Bản một phương phải có cốt thép chịu lực chính theo phương ngắn (phương làm việc) và cốt phân bố theo phương vuông góc; khoảng cách và đường kính thép phải theo bảng cấu tạo để bảo đảm làm việc như bản.",
+    "eval_note": "Nói rõ: thép chính theo phương ngắn; thép phân bố vuông góc.",
+    "section_hint": "Phần bản BTCT"
+  },
+  {
+    "id": 23,
+    "question_vi": "Bản làm việc hai phương theo TCVN 5574:2018 khác gì so với bản một phương?",
+    "answer_key_vi": "Bản hai phương truyền tải theo cả hai cạnh nên phải bố trí cốt thép chịu lực theo cả hai phương chính với tiết diện phù hợp nội lực từng phương.",
+    "eval_note": "Nói rõ: chịu lực hai phương → thép hai phương.",
+    "section_hint": "Phần bản hai phương"
+  },
+  {
+    "id": 24,
+    "question_vi": "Theo TCVN 5574:2018, yêu cầu cấu tạo đối với cột bê tông cốt thép là gì?",
+    "answer_key_vi": "Cột phải có cốt thép dọc đủ chịu nén/uốn và cốt đai (hoặc cốt xoắn) để liên kết, chống dồn nén bê tông và chống mất ổn định thanh cốt dọc; khoảng cách đai và đường kính đai theo bảng quy định.",
+    "eval_note": "Phải nhắc: cốt dọc + cốt đai, mục đích chống dồn nén và giữ cốt.",
+    "section_hint": "Phần cột BTCT"
+  },
+  {
+    "id": 25,
+    "question_vi": "Khi tính toán cột chịu nén đúng tâm theo TCVN 5574:2018 thì điều kiện gì cần thỏa?",
+    "answer_key_vi": "Ứng suất nén tính toán trong bê tông và trong cốt thép không được vượt quá cường độ tính toán của chúng khi chịu nén đúng tâm.",
+    "eval_note": "Từ khóa: ứng suất ≤ cường độ tính toán.",
+    "section_hint": "Phần cột chịu nén"
+  },
+  {
+    "id": 26,
+    "question_vi": "TCVN 5574:2018 quy định gì về chiều dài neo của cốt thép trong bê tông?",
+    "answer_key_vi": "Chiều dài neo phải bảo đảm cốt thép truyền hết lực vào bê tông, tính theo đường kính thép, loại gân, cường độ bê tông và vị trí cấu kiện; giá trị cụ thể xem bảng neo.",
+    "eval_note": "Phải có yếu tố: đường kính, loại thép, cường độ bê tông.",
+    "section_hint": "Phần cấu tạo – neo và nối cốt thép"
+  },
+  {
+    "id": 27,
+    "question_vi": "Các mối nối chồng cốt thép trong TCVN 5574:2018 phải đáp ứng yêu cầu gì?",
+    "answer_key_vi": "Mối nối phải có chiều dài chồng đủ theo quy định, bố trí so le, tránh tập trung quá nhiều mối nối trong một tiết diện để không làm giảm khả năng chịu lực.",
+    "eval_note": "Từ khóa: chiều dài chồng đủ; bố trí so le; tránh tập trung.",
+    "section_hint": "Phần cấu tạo – nối chồng"
+  },
+  {
+    "id": 28,
+    "question_vi": "Theo TCVN 5574:2018, cấu kiện chịu xoắn được tính như thế nào?",
+    "answer_key_vi": "Khi nội lực xoắn đáng kể, phải tính toán xoắn kết hợp với uốn và cắt, bố trí cốt đai xoắn và cốt dọc theo công thức tiêu chuẩn để bảo đảm khả năng chịu xoắn.",
+    "eval_note": "Nêu được: xoắn đáng kể → tính kết hợp → bố trí cốt xoắn.",
+    "section_hint": "Mục tính xoắn"
+  },
+  {
+    "id": 29,
+    "question_vi": "Trong thiết kế móng bê tông cốt thép theo TCVN 5574:2018 cần xét những gì về kết cấu?",
+    "answer_key_vi": "Phải xét khả năng chịu uốn, cắt, đục thủng của bản móng, đủ lớp bảo vệ thép và liên kết với cột/tường bên trên.",
+    "eval_note": "Nêu được 3 kiểm tra: uốn, cắt/đục thủng, cấu tạo.",
+    "section_hint": "Phần cấu kiện dạng bản/móng"
+  },
+  {
+    "id": 30,
+    "question_vi": "TCVN 5574:2018 có yêu cầu gì về khe co giãn trong kết cấu bê tông?",
+    "answer_key_vi": "Khe co giãn cần được bố trí để hạn chế nứt và biến dạng do nhiệt độ và co ngót, khoảng cách và cấu tạo khe tùy thuộc loại công trình và kích thước kết cấu.",
+    "eval_note": "Phải nêu mục đích chống nứt do nhiệt/co ngót.",
+    "section_hint": "Phần cấu tạo chung"
+  },
+  {
+    "id": 31,
+    "question_vi": "Khi thiết kế sàn bê tông cốt thép toàn khối theo TCVN 5574:2018, vì sao cần bố trí thép phân bố ở phía trên bản?",
+    "answer_key_vi": "Để giữ ổn định cốt thép chính, phân bố ứng suất và hạn chế nứt do co ngót/nhiệt ở vùng trên bản.",
+    "eval_note": "Từ khóa: giữ cốt, phân bố ứng suất, hạn chế nứt.",
+    "section_hint": "Phần bản – thép cấu tạo"
+  },
+  {
+    "id": 32,
+    "question_vi": "Theo TCVN 5574:2018, việc tính toán cấu kiện đúc sẵn có gì khác so với cấu kiện toàn khối?",
+    "answer_key_vi": "Cấu kiện đúc sẵn cần xét thêm tải trọng và điều kiện trong giai đoạn vận chuyển, lắp dựng và liên kết, ngoài giai đoạn làm việc lâu dài.",
+    "eval_note": "Phải nêu bổ sung giai đoạn vận chuyển/lắp dựng.",
+    "section_hint": "Phần kết cấu lắp ghép"
+  },
+  {
+    "id": 33,
+    "question_vi": "Khi thiết kế liên kết giữa các cấu kiện bê tông cốt thép lắp ghép theo TCVN 5574:2018 cần đảm bảo điều gì?",
+    "answer_key_vi": "Liên kết phải truyền được các nội lực thiết kế giữa các cấu kiện, bảo đảm làm việc chung như kết cấu toàn khối, và phải thi công được.",
+    "eval_note": "3 ý: truyền lực, làm việc chung, thi công được.",
+    "section_hint": "Phần liên kết cấu kiện lắp ghép"
+  },
+  {
+    "id": 34,
+    "question_vi": "TCVN 5574:2018 quy định thế nào về việc xét ảnh hưởng của từ biến và co ngót bê tông trong tính toán?",
+    "answer_key_vi": "Khi cần độ chính xác cao hoặc với cấu kiện nhạy cảm với biến dạng dài hạn, phải xét thêm từ biến và co ngót bằng hệ số hoặc mô hình tương ứng theo tiêu chuẩn.",
+    "eval_note": "Phải nói: xét khi cần; dùng hệ số/mô hình.",
+    "section_hint": "Phần biến dạng dài hạn"
+  },
+  {
+    "id": 35,
+    "question_vi": "Trong TCVN 5574:2018, vì sao phải giới hạn khoảng cách tối đa giữa các thanh cốt thép chịu lực?",
+    "answer_key_vi": "Để bảo đảm bê tông làm việc đồng đều, tránh nứt rộng giữa các thanh và bảo đảm bám dính tốt giữa bê tông với cốt thép.",
+    "eval_note": "3 lý do: làm việc đồng đều, tránh nứt, bám dính.",
+    "section_hint": "Phần yêu cầu cấu tạo cốt thép"
+  },
+  {
+    "id": 36,
+    "question_vi": "Theo TCVN 5574:2018, khi kiểm tra ổn định của cấu kiện mảnh (như cột cao) cần chú ý điều gì?",
+    "answer_key_vi": "Cần xét độ mảnh của cấu kiện và hệ số tăng mô men do uốn dọc trục, dùng công thức ổn định tương ứng để tránh mất ổn định dọc.",
+    "eval_note": "Từ khóa: độ mảnh, hệ số tăng mô men, ổn định.",
+    "section_hint": "Phần tính ổn định cột"
+  },
+  {
+    "id": 37,
+    "question_vi": "TCVN 5574:2018 có cho phép sử dụng bê tông ứng suất trước không?",
+    "answer_key_vi": "Tiêu chuẩn có đề cập kết cấu bê tông cốt thép ứng suất trước nhưng việc tính toán và vật liệu phải theo các yêu cầu riêng, thường tham khảo thêm tiêu chuẩn chuyên ngành về ứng suất trước.",
+    "eval_note": "Phải nói: có nhưng cần yêu cầu riêng/tiêu chuẩn khác.",
+    "section_hint": "Phần phạm vi hoặc mục nói về kết cấu đặc biệt"
+  },
+  {
+    "id": 38,
+    "question_vi": "Khi thiết kế dầm console (dầm công xôn) theo TCVN 5574:2018 cần kiểm tra gì?",
+    "answer_key_vi": "Phải kiểm tra uốn, cắt tại gối, kiểm tra nứt và độ võng của công xôn, đồng thời bố trí cốt thép neo thẳng vào gối đủ chiều dài.",
+    "eval_note": "Nêu được: uốn + cắt + nứt + neo.",
+    "section_hint": "Phần dầm công xôn"
+  },
+  {
+    "id": 39,
+    "question_vi": "Theo TCVN 5574:2018, cấu tạo vùng gối dầm cần bố trí thêm những loại cốt thép nào?",
+    "answer_key_vi": "Cần bố trí cốt đai dày hơn để chịu cắt, cốt thép cấu tạo chống nứt xiên và bảo đảm chiều dài neo của cốt thép chịu lực.",
+    "eval_note": "Phải nói: tăng đai ở gối; chống nứt; neo.",
+    "section_hint": "Phần cấu tạo dầm"
+  },
+  {
+    "id": 40,
+    "question_vi": "TCVN 5574:2018 yêu cầu gì về kiểm tra chọc thủng đối với bản kê trên cột?",
+    "answer_key_vi": "Khi bản chịu tải tập trung lên cột hoặc gối cứng, phải kiểm tra chọc thủng và nếu không đủ phải tăng chiều dày, bố trí cốt thép chống chọc thủng hoặc dùng đầu cột mở rộng.",
+    "eval_note": "Nêu được: phải kiểm tra; giải pháp nếu không đủ.",
+    "section_hint": "Phần chọc thủng bản"
+  },
+  {
+    "id": 41,
+    "question_vi": "Trong TCVN 5574:2018, việc lựa chọn sơ đồ tính kết cấu khung bê tông cốt thép dựa trên nguyên tắc nào?",
+    "answer_key_vi": "Sơ đồ tính phải phản ánh đúng điều kiện làm việc thực tế, liên kết giữa các cấu kiện và phân bố tải, có thể dùng khung phẳng, khung không gian hoặc mô hình phần tử hữu hạn.",
+    "eval_note": "Từ khóa: phản ánh thực tế; liên kết; phân bố tải.",
+    "section_hint": "Phần nguyên tắc tính hệ kết cấu"
+  },
+  {
+    "id": 42,
+    "question_vi": "Theo TCVN 5574:2018, vì sao phải xét đến ảnh hưởng của nhiệt độ và co ngót trong kết cấu bê tông cốt thép?",
+    "answer_key_vi": "Vì sự thay đổi nhiệt độ và co ngót gây ra ứng suất phụ và nứt nếu kết cấu bị kìm giữ, nên cần cấu tạo khe và cốt thép phân bố để khống chế.",
+    "eval_note": "Nhắc được: gây ứng suất phụ/nứt; cần cấu tạo cốt/khe.",
+    "section_hint": "Phần biến dạng do nhiệt và co ngót"
+  },
+  {
+    "id": 43,
+    "question_vi": "TCVN 5574:2018 quy định gì về khoảng hở tối thiểu giữa các thanh cốt thép để đổ bê tông?",
+    "answer_key_vi": "Khoảng hở phải đủ để vữa bê tông chảy và đầm chặt, phụ thuộc đường kính cốt thép và cỡ hạt cốt liệu; giá trị cụ thể xem bảng cấu tạo.",
+    "eval_note": "Phải nêu mục đích: đổ và đầm bê tông; phụ thuộc đường kính/thành phần.",
+    "section_hint": "Phần cấu tạo – khoảng cách cốt thép"
+  },
+  {
+    "id": 44,
+    "question_vi": "Theo TCVN 5574:2018, khi nào cần tăng cường cốt thép chống nứt tại vùng mở trên bản sàn?",
+    "answer_key_vi": "Khi có lỗ mở, hố ga hoặc thay đổi đột ngột bề rộng bản làm tập trung ứng suất, cần bố trí thép tăng cường quanh mép mở.",
+    "eval_note": "Từ khóa: lỗ mở → tập trung ứng suất → thép tăng cường.",
+    "section_hint": "Phần cấu tạo bản có lỗ mở"
+  },
+  {
+    "id": 45,
+    "question_vi": "TCVN 5574:2018 có yêu cầu gì về kiểm tra chuyển vị ngang của kết cấu khung?",
+    "answer_key_vi": "Khung phải được kiểm tra chuyển vị ngang (độ vồng, độ lệch tầng) dưới tác dụng tải ngang để bảo đảm ổn định và không vượt quá giới hạn sử dụng.",
+    "eval_note": "Phải nói: kiểm tra chuyển vị ngang/độ lệch tầng.",
+    "section_hint": "Phần kiểm tra độ cứng không gian"
+  },
+  {
+    "id": 46,
+    "question_vi": "Khi thiết kế kết cấu chịu động đất mà vẫn dùng TCVN 5574:2018 thì cần lưu ý gì?",
+    "answer_key_vi": "Phải kết hợp yêu cầu của tiêu chuẩn động đất hiện hành về tải trọng, chi tiết cấu tạo dẻo và khả năng phân tán năng lượng, chứ 5574:2018 một mình không đủ.",
+    "eval_note": "Phải nói: phải kết hợp tiêu chuẩn động đất; 5574 không đủ.",
+    "section_hint": "Phần quy định chung – liên hệ tiêu chuẩn khác"
+  },
+  {
+    "id": 47,
+    "question_vi": "Theo TCVN 5574:2018, vì sao phải kiểm soát hàm lượng cốt thép tối thiểu trong cấu kiện chịu uốn?",
+    "answer_key_vi": "Để bảo đảm cấu kiện vẫn có khả năng chịu kéo sau khi bê tông nứt và để tránh phá hoại dòn.",
+    "eval_note": "2 ý: chịu kéo sau nứt; tránh phá hoại dòn.",
+    "section_hint": "Phần hàm lượng cốt thép tối thiểu"
+  },
+  {
+    "id": 48,
+    "question_vi": "Hàm lượng cốt thép tối đa trong dầm theo TCVN 5574:2018 được khống chế nhằm mục đích gì?",
+    "answer_key_vi": "Để bảo đảm dầm còn khả năng biến dạng dẻo và tránh khó khăn trong bố trí, đổ bê tông.",
+    "eval_note": "2 ý: biến dạng dẻo; thi công.",
+    "section_hint": "Phần hàm lượng cốt thép tối đa"
+  },
+  {
+    "id": 49,
+    "question_vi": "TCVN 5574:2018 quy định như thế nào về kiểm tra cấu kiện chịu kéo đúng tâm?",
+    "answer_key_vi": "Ứng suất kéo trong cốt thép không vượt cường độ tính toán của thép; bê tông vùng kéo thường không tính chịu lực hoặc chỉ tính hạn chế.",
+    "eval_note": "Nêu được: thép không vượt; bê tông kéo không tính.",
+    "section_hint": "Phần cấu kiện chịu kéo"
+  },
+  {
+    "id": 50,
+    "question_vi": "Khi cấu kiện làm việc trong môi trường xâm thực, TCVN 5574:2018 yêu cầu điều chỉnh thiết kế thế nào?",
+    "answer_key_vi": "Phải tăng lớp bê tông bảo vệ, chọn bê tông cấp bền và độ chống thấm cao hơn, và có thể tăng hàm lượng cốt thép cấu tạo để bảo đảm bền lâu.",
+    "eval_note": "3 ý: tăng lớp bảo vệ; chọn bê tông tốt hơn; có thể tăng cấu tạo.",
+    "section_hint": "Phần độ bền và môi trường xâm thực"
+  },
+  {
+    "id": 51,
+    "question_vi": "Theo TCVN 5574:2018, khi thiết kế dầm bê tông cốt thép, tỷ lệ chiều cao hữu hiệu nên nằm trong khoảng bao nhiêu so với nhịp?",
+    "answer_key_vi": "Chiều cao hữu hiệu h của dầm thường lấy bằng l/10 đến l/20 tùy loại tải và điều kiện võng, để bảo đảm độ cứng và kiểm soát võng.",
+    "eval_note": "Có nêu: h ≈ l/10 đến l/20; mục đích kiểm soát võng.",
+    "section_hint": "Phần cấu tạo dầm – tỷ lệ hình học"
+  },
+  {
+    "id": 52,
+    "question_vi": "Theo TCVN 5574:2018, hàm lượng cốt thép chịu kéo trong dầm không được nhỏ hơn bao nhiêu phần trăm?",
+    "answer_key_vi": "Hàm lượng cốt thép chịu kéo tối thiểu thường không nhỏ hơn khoảng 0,1% diện tích bê tông chịu kéo, để tránh phá hoại giòn và duy trì khả năng chịu lực sau khi nứt.",
+    "eval_note": "Nêu được 0.1% hoặc cụm 'khoảng 0.1%'; lý do: tránh phá hoại giòn.",
+    "section_hint": "Hàm lượng thép tối thiểu dầm"
+  },
+  {
+    "id": 53,
+    "question_vi": "Trong TCVN 5574:2018, khoảng cách tối đa giữa các cốt đai dọc dầm được quy định theo yếu tố nào?",
+    "answer_key_vi": "Khoảng cách cốt đai phụ thuộc vào chiều cao tiết diện, loại tải trọng, và phải nhỏ hơn giới hạn quy định để bảo đảm chống cắt và giữ cốt dọc.",
+    "eval_note": "Nêu được: phụ thuộc chiều cao tiết diện; mục đích chống cắt/giữ cốt.",
+    "section_hint": "Cấu tạo dầm – cốt đai"
+  },
+  {
+    "id": 54,
+    "question_vi": "Theo TCVN 5574:2018, dầm chính và dầm phụ trong cùng hệ sàn nên được liên kết thế nào?",
+    "answer_key_vi": "Dầm phụ đặt tựa lên dầm chính hoặc liên kết toàn khối, bảo đảm truyền tải hợp lý và bố trí cốt thép neo, tránh tập trung ứng suất tại giao điểm.",
+    "eval_note": "Nêu được: liên kết toàn khối hoặc tựa; cần neo hợp lý.",
+    "section_hint": "Phần khung – giao dầm"
+  },
+  {
+    "id": 55,
+    "question_vi": "Khi thiết kế bản sàn kê bốn cạnh, TCVN 5574:2018 cho phép coi như bản hai phương khi nào?",
+    "answer_key_vi": "Khi tỷ lệ cạnh dài trên cạnh ngắn nhỏ hơn khoảng 2, bản được coi làm việc hai phương và bố trí thép chịu lực theo cả hai phương.",
+    "eval_note": "Có nêu tỷ lệ ~2; kết luận hai phương.",
+    "section_hint": "Phần bản hai phương"
+  },
+  {
+    "id": 56,
+    "question_vi": "Theo TCVN 5574:2018, bản sàn có lỗ mở lớn hơn bao nhiêu phần trăm chiều rộng cần tăng cường thép quanh lỗ?",
+    "answer_key_vi": "Khi lỗ mở có kích thước lớn hơn khoảng 1/4 chiều rộng bản, cần bố trí thép tăng cường quanh mép lỗ và dầm viền để phân bố lại nội lực.",
+    "eval_note": "Nêu được tỷ lệ 1/4 và biện pháp tăng cường.",
+    "section_hint": "Phần bản có lỗ mở"
+  },
+  {
+    "id": 57,
+    "question_vi": "TCVN 5574:2018 có yêu cầu gì về bố trí thép trong vùng gối bản sàn?",
+    "answer_key_vi": "Phải bố trí thép trên tại gối sàn để chịu mô men âm, đặc biệt khi sàn liên tục hoặc đổ toàn khối.",
+    "eval_note": "Từ khóa: thép trên gối; mô men âm.",
+    "section_hint": "Phần bản liên tục"
+  },
+  {
+    "id": 58,
+    "question_vi": "Theo TCVN 5574:2018, bản kê bốn cạnh nên neo thép như thế nào?",
+    "answer_key_vi": "Thép chính phải được neo quá mép gối một khoảng tối thiểu bằng chiều dài neo yêu cầu để bảo đảm truyền lực.",
+    "eval_note": "Nhắc được: neo quá mép gối; chiều dài neo.",
+    "section_hint": "Phần cấu tạo bản"
+  },
+  {
+    "id": 59,
+    "question_vi": "Khi thiết kế bản sàn công nghiệp có tải trọng tập trung, TCVN 5574:2018 khuyến cáo điều gì?",
+    "answer_key_vi": "Phải kiểm tra khả năng chịu đục thủng quanh vị trí tải trọng và tăng chiều dày hoặc bố trí cốt tăng cường tại vùng đó.",
+    "eval_note": "Từ khóa: kiểm tra đục thủng; tăng cường.",
+    "section_hint": "Phần TTGH1 – chọc thủng"
+  },
+  {
+    "id": 60,
+    "question_vi": "Theo TCVN 5574:2018, trong cột bê tông cốt thép, hàm lượng cốt dọc nhỏ nhất và lớn nhất được quy định nhằm mục đích gì?",
+    "answer_key_vi": "Để bảo đảm cột không thiếu thép gây giòn hoặc quá nhiều thép gây khó đổ bê tông và giảm độ dẻo; thường giới hạn khoảng 1–6% diện tích tiết diện.",
+    "eval_note": "Nêu được mục đích: tránh giòn, tránh khó thi công; tỉ lệ ~1–6%.",
+    "section_hint": "Phần cột – hàm lượng cốt thép"
+  },
+  {
+    "id": 61,
+    "question_vi": "Trong TCVN 5574:2018, cột mảnh cần kiểm tra thêm điều gì ngoài chịu nén và uốn?",
+    "answer_key_vi": "Cần kiểm tra ổn định dọc trục do độ mảnh lớn, tính hệ số uốn dọc và kiểm soát độ lệch tâm tăng lên do biến dạng.",
+    "eval_note": "Từ khóa: ổn định; hệ số uốn dọc; độ mảnh.",
+    "section_hint": "Phần cột mảnh"
+  },
+  {
+    "id": 62,
+    "question_vi": "Theo TCVN 5574:2018, cốt đai trong cột phải bố trí dày hơn ở khu vực nào?",
+    "answer_key_vi": "Ở đầu cột và vùng nối dầm-cột do nội lực lớn và nguy cơ nứt xiên, cần đai dày hơn hoặc cốt xoắn.",
+    "eval_note": "Nêu được vùng đầu cột, lý do: nội lực lớn, nứt xiên.",
+    "section_hint": "Phần cấu tạo cột"
+  },
+  {
+    "id": 63,
+    "question_vi": "Khi tính toán khung bê tông cốt thép theo TCVN 5574:2018, cần xét những loại tải trọng nào?",
+    "answer_key_vi": "Phải xét tải trọng thường xuyên, tạm thời, gió, nhiệt độ và tải trọng đặc biệt nếu có; tổ hợp theo tiêu chuẩn tải trọng hiện hành.",
+    "eval_note": "Nêu ít nhất 3 loại tải: thường xuyên, gió, nhiệt.",
+    "section_hint": "Phần tổ hợp tải trọng"
+  },
+  {
+    "id": 64,
+    "question_vi": "Theo TCVN 5574:2018, cấu kiện chịu nén lệch tâm nhỏ nên được thiết kế như thế nào?",
+    "answer_key_vi": "Có thể coi như cấu kiện chịu nén đúng tâm có xét đến hiệu ứng lệch tâm nhỏ bằng cách tăng ứng suất hoặc giảm cường độ tính toán.",
+    "eval_note": "Phải nói: coi như nén đúng tâm có hiệu chỉnh.",
+    "section_hint": "Phần nén lệch tâm nhỏ"
+  },
+  {
+    "id": 65,
+    "question_vi": "Trong TCVN 5574:2018, công thức tính mô men giới hạn trong dầm chịu uốn được xây dựng dựa trên nguyên tắc nào?",
+    "answer_key_vi": "Dựa trên cân bằng nội lực giữa bê tông vùng nén và cốt thép vùng kéo, cùng giả thiết biểu đồ ứng suất giới hạn trong bê tông.",
+    "eval_note": "Phải có: cân bằng nội lực; biểu đồ ứng suất.",
+    "section_hint": "Phần TTGH1 – uốn thuần túy"
+  },
+  {
+    "id": 66,
+    "question_vi": "Theo TCVN 5574:2018, khi dầm có tiết diện thay đổi, việc tính nội lực được thực hiện thế nào?",
+    "answer_key_vi": "Phải xác định nội lực theo tiết diện thay đổi thực tế, có thể chia phần tử và tính bằng phương pháp số hoặc hệ số quy đổi.",
+    "eval_note": "Nêu được: tính theo tiết diện thực; dùng phương pháp số.",
+    "section_hint": "Phần cấu kiện tiết diện thay đổi"
+  },
+  {
+    "id": 67,
+    "question_vi": "TCVN 5574:2018 quy định gì về neo cốt thép chịu kéo ở đầu dầm công xôn?",
+    "answer_key_vi": "Phải neo cốt thép chịu kéo vào gối một chiều dài ít nhất bằng chiều dài neo tiêu chuẩn, hoặc uốn móc nếu không đủ chỗ.",
+    "eval_note": "Từ khóa: neo đủ chiều dài hoặc uốn móc.",
+    "section_hint": "Phần cấu tạo dầm công xôn"
+  },
+  {
+    "id": 68,
+    "question_vi": "Theo TCVN 5574:2018, bản sàn có độ dốc lớn hơn bao nhiêu cần xét đến ảnh hưởng trọng lượng riêng dọc mặt nghiêng?",
+    "answer_key_vi": "Khi độ dốc lớn hơn khoảng 10°, phải tính thành phần trọng lượng dọc theo mặt nghiêng vào nội lực.",
+    "eval_note": "Nêu được giá trị 10° và ý tính thành phần dọc.",
+    "section_hint": "Phần tải trọng sàn nghiêng"
+  },
+  {
+    "id": 69,
+    "question_vi": "Khi tính toán cấu kiện chịu uốn có lực dọc, TCVN 5574:2018 quy định ra sao?",
+    "answer_key_vi": "Phải xét tương tác giữa mô men và lực dọc, xác định biểu đồ tương tác M-N để kiểm tra khả năng chịu lực.",
+    "eval_note": "Từ khóa: tương tác M-N; biểu đồ tương tác.",
+    "section_hint": "Phần TTGH1 – tương tác uốn-nén"
+  },
+  {
+    "id": 70,
+    "question_vi": "Theo TCVN 5574:2018, kiểm tra TTGH2 về mở rộng vết nứt được thực hiện như thế nào?",
+    "answer_key_vi": "Tính chiều rộng vết nứt theo công thức tiêu chuẩn hoặc giới hạn theo giá trị cho phép tùy cấp công trình và điều kiện môi trường.",
+    "eval_note": "Phải có: tính hoặc giới hạn chiều rộng vết nứt.",
+    "section_hint": "Phần TTGH2 – kiểm tra nứt"
+  },
+  {
+    "id": 71,
+    "question_vi": "TCVN 5574:2018 cho phép bỏ qua tính toán kiểm tra võng khi nào?",
+    "answer_key_vi": "Khi các kích thước cấu kiện và hàm lượng cốt thép thỏa mãn giới hạn cấu tạo được nêu trong tiêu chuẩn, có thể bỏ qua kiểm tra võng.",
+    "eval_note": "Từ khóa: kích thước và hàm lượng đạt giới hạn → bỏ kiểm tra.",
+    "section_hint": "Phần TTGH2 – võng"
+  },
+  {
+    "id": 72,
+    "question_vi": "Theo TCVN 5574:2018, tải trọng tác dụng lâu dài ảnh hưởng thế nào đến võng kết cấu?",
+    "answer_key_vi": "Tải trọng lâu dài gây ra từ biến và tăng võng theo thời gian, cần nhân hệ số tăng võng theo tiêu chuẩn khi tính biến dạng dài hạn.",
+    "eval_note": "Nhắc từ biến, võng tăng theo thời gian.",
+    "section_hint": "Phần biến dạng dài hạn"
+  },
+  {
+    "id": 73,
+    "question_vi": "TCVN 5574:2018 quy định ra sao về ứng suất còn lại trong bê tông?",
+    "answer_key_vi": "Ứng suất còn lại do co ngót, nhiệt hoặc thi công có thể làm thay đổi nội lực, nên cần xem xét khi tính độ bền lâu hoặc cấu kiện đặc biệt.",
+    "eval_note": "Phải nêu: do co ngót/nhiệt; có thể ảnh hưởng nội lực.",
+    "section_hint": "Phần biến dạng và ứng suất phụ"
+  },
+  {
+    "id": 74,
+    "question_vi": "Theo TCVN 5574:2018, khi dùng thép cường độ cao có cần thay đổi giả thiết tính không?",
+    "answer_key_vi": "Có, cần sử dụng biểu đồ ứng suất-thép phù hợp và điều chỉnh cường độ tính toán cũng như độ dẻo của vùng chịu lực.",
+    "eval_note": "Phải nói: điều chỉnh biểu đồ ứng suất; độ dẻo.",
+    "section_hint": "Phần vật liệu – thép cường độ cao"
+  },
+  {
+    "id": 75,
+    "question_vi": "Trong TCVN 5574:2018, bê tông có cường độ cao được phép dùng khi nào?",
+    "answer_key_vi": "Được dùng khi có kiểm chứng thí nghiệm, vật liệu đảm bảo đồng nhất và tuân thủ quy định riêng về ứng xử giòn và co ngót.",
+    "eval_note": "Phải có: kiểm chứng thí nghiệm; đồng nhất; co ngót.",
+    "section_hint": "Phần bê tông cường độ cao"
+  },
+  {
+    "id": 76,
+    "question_vi": "Theo TCVN 5574:2018, cốt thép dự ứng lực được phân loại theo tiêu chí nào?",
+    "answer_key_vi": "Theo cường độ kéo, giới hạn chảy và phương pháp tạo ứng suất trước (căng trước hoặc căng sau).",
+    "eval_note": "Phải có: cường độ, phương pháp căng trước/sau.",
+    "section_hint": "Phần ứng suất trước"
+  },
+  {
+    "id": 77,
+    "question_vi": "Khi tính toán cấu kiện bê tông ứng suất trước, TCVN 5574:2018 yêu cầu kiểm tra những gì?",
+    "answer_key_vi": "Phải kiểm tra TTGH1 về chịu lực và TTGH2 về nứt và biến dạng sau khi mất ứng suất, xét hao ứng suất theo thời gian.",
+    "eval_note": "Hai kiểm tra: TTGH1 và TTGH2; xét hao ứng suất.",
+    "section_hint": "Phần ứng suất trước – kiểm tra"
+  },
+  {
+    "id": 78,
+    "question_vi": "Theo TCVN 5574:2018, độ võng tổng hợp của cấu kiện gồm những thành phần nào?",
+    "answer_key_vi": "Gồm võng đàn hồi tức thời và võng do từ biến, co ngót hoặc tải trọng lâu dài.",
+    "eval_note": "Phải có hai nhóm: đàn hồi + dài hạn.",
+    "section_hint": "Phần biến dạng dài hạn"
+  },
+  {
+    "id": 79,
+    "question_vi": "TCVN 5574:2018 có quy định gì về khe co giãn nhiệt trong công trình dài?",
+    "answer_key_vi": "Công trình dài hơn giới hạn quy định phải chia thành khối có khe co giãn để giảm ứng suất nhiệt, khoảng cách khe tùy loại kết cấu và khí hậu.",
+    "eval_note": "Phải nêu: chia khối; giảm ứng suất nhiệt.",
+    "section_hint": "Phần khe co giãn"
+  },
+  {
+    "id": 80,
+    "question_vi": "Theo TCVN 5574:2018, cường độ bê tông dùng trong tính toán TTGH2 lấy theo giá trị nào?",
+    "answer_key_vi": "Cường độ đàn hồi tương ứng với tải trọng sử dụng, thường lấy bằng cường độ trung bình khi nứt chưa phát triển.",
+    "eval_note": "Nêu: cường độ đàn hồi, tải trọng sử dụng.",
+    "section_hint": "Phần TTGH2 – vật liệu"
+  },
+  {
+    "id": 81,
+    "question_vi": "Khi thiết kế cầu thang bê tông cốt thép theo TCVN 5574:2018 cần lưu ý gì?",
+    "answer_key_vi": "Phải kiểm tra uốn, cắt tại bản thang và dầm chiếu nghỉ, bố trí thép theo sơ đồ truyền tải và neo đủ tại gối.",
+    "eval_note": "Từ khóa: kiểm tra uốn/cắt; thép bản và gối.",
+    "section_hint": "Phần cấu kiện đặc biệt – cầu thang"
+  },
+  {
+    "id": 82,
+    "question_vi": "Theo TCVN 5574:2018, tường bê tông cốt thép chịu lực cần được tính toán theo nguyên tắc nào?",
+    "answer_key_vi": "Tường chịu lực phải được tính như cấu kiện chịu nén lệch tâm phẳng, xét đồng thời mô men uốn và lực dọc, đảm bảo ứng suất không vượt cường độ cho phép của vật liệu.",
+    "eval_note": "Phải có: nén lệch tâm; mô men + lực dọc; kiểm tra ứng suất.",
+    "section_hint": "Phần cấu kiện tường chịu lực"
+  },
+  {
+    "id": 83,
+    "question_vi": "Khi tường bê tông cốt thép chịu tải ngang (gió hoặc đất), TCVN 5574:2018 yêu cầu kiểm tra gì?",
+    "answer_key_vi": "Phải kiểm tra khả năng chịu uốn theo chiều dày tường và khả năng ổn định tổng thể, bảo đảm không nứt vượt giới hạn cho phép.",
+    "eval_note": "Hai điểm: chịu uốn theo chiều dày, kiểm tra ổn định.",
+    "section_hint": "Phần tường chịu tải ngang"
+  },
+  {
+    "id": 84,
+    "question_vi": "Theo TCVN 5574:2018, tường vây hoặc tường chắn bê tông cần xét thêm yếu tố nào trong tính toán?",
+    "answer_key_vi": "Cần xét áp lực đất và nước, ma sát với nền và chuyển vị giới hạn để bảo đảm độ ổn định tổng thể.",
+    "eval_note": "Từ khóa: áp lực đất/nước; ổn định; chuyển vị.",
+    "section_hint": "Phần tường chắn"
+  },
+  {
+    "id": 85,
+    "question_vi": "Móng đơn bằng bê tông cốt thép theo TCVN 5574:2018 được tính như loại cấu kiện nào?",
+    "answer_key_vi": "Thường tính như bản chịu uốn hai phương đặt trên nền đàn hồi, kiểm tra TTGH1 về uốn và TTGH2 về võng, chọc thủng.",
+    "eval_note": "Nêu được: bản hai phương trên nền; uốn + võng + chọc thủng.",
+    "section_hint": "Phần móng đơn"
+  },
+  {
+    "id": 86,
+    "question_vi": "Theo TCVN 5574:2018, khi móng chịu tải lệch tâm cần làm gì?",
+    "answer_key_vi": "Phải tính lại biểu đồ ứng suất dưới đáy móng, đảm bảo ứng suất nén phân bố không âm và không vượt sức chịu của nền.",
+    "eval_note": "Phải có: kiểm tra ứng suất đáy móng; không âm; không vượt nền.",
+    "section_hint": "Phần móng lệch tâm"
+  },
+  {
+    "id": 87,
+    "question_vi": "Móng băng liên kết các cột theo TCVN 5574:2018 được coi làm việc theo cơ chế nào?",
+    "answer_key_vi": "Móng băng làm việc như dầm trên nền đàn hồi, chịu uốn và cắt giữa các gối cột.",
+    "eval_note": "Từ khóa: dầm trên nền; chịu uốn và cắt.",
+    "section_hint": "Phần móng băng"
+  },
+  {
+    "id": 88,
+    "question_vi": "Theo TCVN 5574:2018, vì sao cần kiểm tra chọc thủng cho móng cột?",
+    "answer_key_vi": "Vì lực tập trung từ cột có thể gây phá hoại cục bộ quanh cột theo dạng chọc thủng nếu bê tông không đủ chịu cắt.",
+    "eval_note": "Phải nói: lực cột → phá hoại chọc thủng.",
+    "section_hint": "Phần móng – TTGH1 chọc thủng"
+  },
+  {
+    "id": 89,
+    "question_vi": "Khi tính bản móng, TCVN 5574:2018 cho phép bỏ qua cốt thép phương nào?",
+    "answer_key_vi": "Nếu tải trọng chủ yếu phân bố một phương, có thể giảm bớt hoặc bỏ cốt thép chịu lực phương còn lại, nhưng vẫn cần cốt phân bố tối thiểu.",
+    "eval_note": "Nêu: được giảm một phương nhưng giữ thép phân bố.",
+    "section_hint": "Phần bản móng một phương"
+  },
+  {
+    "id": 90,
+    "question_vi": "Theo TCVN 5574:2018, cột neo vào móng cần có chiều sâu chôn tối thiểu bao nhiêu so với đường kính cột?",
+    "answer_key_vi": "Chiều sâu neo thường không nhỏ hơn 1,5 lần đường kính cột hoặc theo quy định cấu tạo để bảo đảm truyền lực nén vào móng.",
+    "eval_note": "Nêu được tỷ lệ khoảng 1,5d và mục đích truyền lực.",
+    "section_hint": "Phần neo cột vào móng"
+  },
+  {
+    "id": 91,
+    "question_vi": "TCVN 5574:2018 có yêu cầu gì với tường vây móng tầng hầm?",
+    "answer_key_vi": "Phải kiểm tra chống thấm, độ bền lâu và chịu áp lực đất nước ngầm; cấu tạo cốt thép chống nứt do co ngót.",
+    "eval_note": "Từ khóa: chống thấm; áp lực đất; nứt do co ngót.",
+    "section_hint": "Phần tường tầng hầm"
+  },
+  {
+    "id": 92,
+    "question_vi": "Theo TCVN 5574:2018, cấu kiện dạng vòm hoặc vỏ bê tông được tính như thế nào?",
+    "answer_key_vi": "Phải tính theo lý thuyết kết cấu vỏ, xét nội lực màng và uốn, có thể dùng phương pháp phần tử hữu hạn.",
+    "eval_note": "Phải nêu: nội lực màng/uốn; phương pháp số.",
+    "section_hint": "Phần cấu kiện dạng vỏ"
+  },
+  {
+    "id": 93,
+    "question_vi": "TCVN 5574:2018 có khuyến cáo gì về bê tông nhẹ trong kết cấu nhà cao tầng?",
+    "answer_key_vi": "Có thể dùng bê tông nhẹ để giảm tải trọng bản thân, nhưng phải kiểm tra cường độ và mô đun đàn hồi thấp hơn bê tông nặng.",
+    "eval_note": "Phải có: giảm tải; kiểm tra cường độ và mô đun.",
+    "section_hint": "Phần bê tông nhẹ"
+  },
+  {
+    "id": 94,
+    "question_vi": "Theo TCVN 5574:2018, khi bê tông chịu nén lệch tâm, vùng nén có thể tính với biểu đồ ứng suất gì?",
+    "answer_key_vi": "Có thể dùng biểu đồ ứng suất chữ nhật tương đương hoặc parabol để mô tả vùng nén.",
+    "eval_note": "Phải có: chữ nhật hoặc parabol.",
+    "section_hint": "Phần giả thiết tính vùng nén"
+  },
+  {
+    "id": 95,
+    "question_vi": "Theo TCVN 5574:2018, hệ số điều kiện làm việc của bê tông được dùng để làm gì?",
+    "answer_key_vi": "Dùng để điều chỉnh cường độ tính toán khi điều kiện thi công, tải trọng hoặc môi trường khác tiêu chuẩn.",
+    "eval_note": "Từ khóa: điều chỉnh cường độ theo điều kiện làm việc.",
+    "section_hint": "Phần vật liệu – hệ số điều kiện"
+  },
+  {
+    "id": 96,
+    "question_vi": "Theo TCVN 5574:2018, khi có chênh lệch nhiệt độ lớn giữa hai mặt cấu kiện cần xét thêm gì?",
+    "answer_key_vi": "Cần xét ứng suất phụ do giãn nở không đều, có thể bố trí khe hoặc cốt phân bố giảm nứt.",
+    "eval_note": "Nhắc được: ứng suất phụ do nhiệt; khe/cốt phân bố.",
+    "section_hint": "Phần tác động nhiệt"
+  },
+  {
+    "id": 97,
+    "question_vi": "Trong TCVN 5574:2018, hệ số an toàn vật liệu phản ánh điều gì?",
+    "answer_key_vi": "Phản ánh độ tin cậy của vật liệu và điều kiện làm việc; bê tông có hệ số an toàn lớn hơn thép do biến động cao hơn.",
+    "eval_note": "Phải có: độ tin cậy; bê tông hệ số lớn hơn thép.",
+    "section_hint": "Phần hệ số an toàn"
+  },
+  {
+    "id": 98,
+    "question_vi": "Theo TCVN 5574:2018, khi có thay đổi tiết diện đột ngột cần bố trí gì?",
+    "answer_key_vi": "Phải bố trí thép tăng cường hoặc thép cấu tạo tại vùng thay đổi để tránh tập trung ứng suất và nứt.",
+    "eval_note": "Phải có: thép tăng cường; tránh nứt.",
+    "section_hint": "Phần cấu tạo – thay đổi tiết diện"
+  },
+  {
+    "id": 99,
+    "question_vi": "Theo TCVN 5574:2018, kết cấu bê tông có cốt sợi thép được phép áp dụng không?",
+    "answer_key_vi": "Có thể áp dụng nếu có thí nghiệm xác định đặc trưng cơ học và mô hình tính phù hợp, vì không nằm trong phạm vi cơ bản của tiêu chuẩn.",
+    "eval_note": "Phải nói: có thể áp dụng nhưng cần thí nghiệm; không thuộc phạm vi cơ bản.",
+    "section_hint": "Phần vật liệu đặc biệt"
+  },
+  {
+    "id": 100,
+    "question_vi": "Theo TCVN 5574:2018, mục tiêu chính khi kiểm tra TTGH2 là gì?",
+    "answer_key_vi": "Đảm bảo kết cấu không bị nứt, biến dạng hoặc dao động vượt quá giới hạn làm ảnh hưởng công năng, độ bền và thẩm mỹ.",
+    "eval_note": "Ba yếu tố: nứt, biến dạng, dao động.",
+    "section_hint": "Phần TTGH2 – khái quát"
+  },
+  {
+    "id": 101,
+    "question_vi": "TCVN 5574:2018 quy định thế nào về độ võng giới hạn của dầm sàn nhà ở?",
+    "answer_key_vi": "Độ võng giới hạn thường không vượt quá 1/250 đến 1/300 nhịp tùy loại kết cấu và hoàn thiện.",
+    "eval_note": "Có giá trị 1/250–1/300.",
+    "section_hint": "Phần TTGH2 – võng giới hạn"
+  },
+  {
+    "id": 102,
+    "question_vi": "Theo TCVN 5574:2018, vết nứt trong cấu kiện chịu uốn có thể chấp nhận được khi nào?",
+    "answer_key_vi": "Khi chiều rộng vết nứt nhỏ hơn giá trị cho phép theo cấp công trình và môi trường, và không ảnh hưởng đến khả năng chịu lực hoặc bền lâu.",
+    "eval_note": "Phải có: chiều rộng nhỏ hơn giới hạn; không ảnh hưởng chịu lực.",
+    "section_hint": "Phần kiểm tra nứt"
+  },
+  {
+    "id": 103,
+    "question_vi": "Trong TCVN 5574:2018, mô đun đàn hồi của bê tông dùng để tính gì?",
+    "answer_key_vi": "Dùng để xác định biến dạng, võng, và ứng suất trong TTGH2, thường phụ thuộc cường độ bê tông và tuổi.",
+    "eval_note": "Phải có: tính biến dạng/võng; phụ thuộc cường độ.",
+    "section_hint": "Phần vật liệu – mô đun đàn hồi"
+  },
+  {
+    "id": 104,
+    "question_vi": "Theo TCVN 5574:2018, tải trọng riêng của bê tông nặng lấy bằng bao nhiêu?",
+    "answer_key_vi": "Khoảng 24 đến 25 kN/m³, tùy loại cốt liệu.",
+    "eval_note": "Giá trị 24–25 kN/m³.",
+    "section_hint": "Phần vật liệu – khối lượng riêng"
+  },
+  {
+    "id": 105,
+    "question_vi": "TCVN 5574:2018 có yêu cầu gì về kiểm tra độ dẻo của kết cấu bê tông cốt thép?",
+    "answer_key_vi": "Kết cấu phải có khả năng biến dạng dẻo hợp lý trước khi phá hoại, đảm bảo phân phối lại nội lực và tránh sập giòn.",
+    "eval_note": "Phải nêu: biến dạng dẻo; tránh phá hoại giòn.",
+    "section_hint": "Phần nguyên tắc thiết kế dẻo"
+  },
+  {
+    "id": 106,
+    "question_vi": "Theo TCVN 5574:2018, kiểm tra cấu kiện chịu kéo xiên được thực hiện như thế nào?",
+    "answer_key_vi": "Tính theo tổ hợp nội lực kéo và cắt, đảm bảo tổng hợp ứng suất trong bê tông và thép không vượt cường độ tính toán.",
+    "eval_note": "Từ khóa: kéo + cắt; ứng suất tổng hợp.",
+    "section_hint": "Phần TTGH1 – kéo xiên"
+  },
+  {
+    "id": 107,
+    "question_vi": "Khi tính toán cấu kiện chịu cắt có đai nghiêng, TCVN 5574:2018 hướng dẫn gì?",
+    "answer_key_vi": "Cho phép tính thành phần chịu cắt của bê tông và cốt đai xiên theo hướng chịu lực, giảm khoảng cách đai tương đương.",
+    "eval_note": "Phải có: đai xiên; tính thành phần chịu cắt.",
+    "section_hint": "Phần cấu kiện chịu cắt"
+  },
+  {
+    "id": 108,
+    "question_vi": "Theo TCVN 5574:2018, khi dùng cốt thép trơn cần thay đổi gì so với thép gân?",
+    "answer_key_vi": "Cần tăng chiều dài neo và hệ số dính bám vì khả năng bám dính kém hơn.",
+    "eval_note": "Phải nói: tăng chiều dài neo; dính bám kém hơn.",
+    "section_hint": "Phần neo và dính bám"
+  },
+  {
+    "id": 109,
+    "question_vi": "TCVN 5574:2018 quy định tối thiểu bao nhiêu lớp cốt thép trong bản sàn dày?",
+    "answer_key_vi": "Ít nhất hai lớp thép: lớp trên và lớp dưới để kiểm soát nứt và biến dạng.",
+    "eval_note": "Hai lớp thép: trên và dưới.",
+    "section_hint": "Phần cấu tạo bản dày"
+  },
+  {
+    "id": 110,
+    "question_vi": "Theo TCVN 5574:2018, đối với bản có chiều dày lớn, vì sao cần thép hai lớp?",
+    "answer_key_vi": "Vì ứng suất kéo xuất hiện ở cả hai mặt do gradient nhiệt và co ngót, nên cần thép cả hai mặt.",
+    "eval_note": "Phải có: ứng suất hai mặt do nhiệt/co ngót.",
+    "section_hint": "Phần bản dày – ứng suất hai mặt"
+  },
+  {
+    "id": 111,
+    "question_vi": "TCVN 5574:2018 có yêu cầu gì về bảo vệ cốt thép khi môi trường có clorua?",
+    "answer_key_vi": "Phải tăng chiều dày lớp bảo vệ và dùng bê tông chống thấm, có thể dùng phủ bảo vệ hoặc thép không gỉ.",
+    "eval_note": "Ba ý: tăng lớp bảo vệ; bê tông chống thấm; phủ/thép không gỉ.",
+    "section_hint": "Phần môi trường ăn mòn"
+  },
+  {
+    "id": 112,
+    "question_vi": "Theo TCVN 5574:2018, trong vùng có tải trọng động cần kiểm tra thêm gì?",
+    "answer_key_vi": "Phải kiểm tra mỏi cho bê tông và cốt thép, đảm bảo ứng suất dao động không vượt giới hạn mỏi.",
+    "eval_note": "Phải có: kiểm tra mỏi; giới hạn ứng suất dao động.",
+    "section_hint": "Phần tải trọng động"
+  },
+  {
+    "id": 113,
+    "question_vi": "Khi kết cấu chịu gió giật, TCVN 5574:2018 có yêu cầu gì đặc biệt?",
+    "answer_key_vi": "Phải xét tổ hợp tải gió động và kiểm tra dao động, chuyển vị ngang.",
+    "eval_note": "Từ khóa: tải gió động; chuyển vị ngang.",
+    "section_hint": "Phần tác động gió"
+  },
+  {
+    "id": 114,
+    "question_vi": "Theo TCVN 5574:2018, khả năng chịu nén của bê tông giảm khi nào?",
+    "answer_key_vi": "Khi bê tông bị nứt, chịu ứng suất kéo đồng thời hoặc có lỗ rỗng và độ ẩm cao.",
+    "eval_note": "Nêu được: nứt, kéo đồng thời, rỗng/ẩm.",
+    "section_hint": "Phần bê tông – điều kiện làm việc"
+  },
+  {
+    "id": 115,
+    "question_vi": "TCVN 5574:2018 yêu cầu gì khi dùng cốt sợi tổng hợp trong bê tông?",
+    "answer_key_vi": "Phải có thử nghiệm xác định đặc trưng cơ học của bê tông có sợi và phải chứng minh được sợi thực sự cải thiện khả năng khống chế nứt hoặc chịu kéo uốn; thiết kế dựa trên số liệu thí nghiệm chứ không mặc định như bê tông thường.",
+    "eval_note": "Phải có: cần thí nghiệm; dùng số liệu riêng; mục đích khống chế nứt.",
+    "section_hint": "Phần vật liệu đặc biệt"
+  },
+  {
+    "id": 116,
+    "question_vi": "Theo TCVN 5574:2018, khi nối cốt thép bằng hàn cần kiểm tra gì?",
+    "answer_key_vi": "Cần kiểm tra loại thép có hàn được hay không, chiều dài và kiểu mối hàn phải bảo đảm truyền đủ lực thiết kế và không làm suy giảm tiết diện.",
+    "eval_note": "Từ khóa: kiểm tra thép có hàn được; mối hàn truyền đủ lực.",
+    "section_hint": "Phần nối cốt thép"
+  },
+  {
+    "id": 117,
+    "question_vi": "Khi nối cốt thép bằng ống ren hoặc ống nối cơ học, TCVN 5574:2018 yêu cầu gì?",
+    "answer_key_vi": "Ống nối phải được chứng nhận chịu lực tương đương thanh thép nối, bố trí so le và không tập trung quá nhiều nối trên một tiết diện.",
+    "eval_note": "Phải có: chịu lực tương đương; bố trí so le.",
+    "section_hint": "Phần nối cơ học"
+  },
+  {
+    "id": 118,
+    "question_vi": "Theo TCVN 5574:2018, tại sao phải tránh đặt mối nối cốt thép ở vùng mô men lớn?",
+    "answer_key_vi": "Vì mối nối làm giảm khả năng chịu kéo hiệu quả và gây tập trung biến dạng, nên nên đặt nối ở vùng nội lực nhỏ.",
+    "eval_note": "Phải có: mối nối giảm khả năng; đặt ở vùng nội lực nhỏ.",
+    "section_hint": "Phần cấu tạo cốt thép"
+  },
+  {
+    "id": 119,
+    "question_vi": "TCVN 5574:2018 quy định gì về bố trí cốt thép neo tại mép ô sàn phẳng kê lên cột?",
+    "answer_key_vi": "Phải neo và tăng cường cốt thép phía trên cột để chịu mô men âm và chọc thủng, có thể dùng thép xuyên qua cột hoặc thép móc.",
+    "eval_note": "Từ khóa: thép trên cột; mô men âm; chống chọc thủng.",
+    "section_hint": "Phần sàn phẳng trên cột"
+  },
+  {
+    "id": 120,
+    "question_vi": "Theo TCVN 5574:2018, với cấu kiện chịu nén ngắn hạn và dài hạn có khác nhau về kiểm tra không?",
+    "answer_key_vi": "Có, với tác dụng dài hạn cần xét thêm từ biến của bê tông làm tăng biến dạng và có thể giảm khả năng chịu nén hiệu quả.",
+    "eval_note": "Phải có: tác dụng dài hạn → từ biến → giảm hiệu quả.",
+    "section_hint": "Phần biến dạng dài hạn"
+  },
+  {
+    "id": 121,
+    "question_vi": "Theo TCVN 5574:2018, vì sao phải hạn chế độ lệch tâm thi công của cột?",
+    "answer_key_vi": "Vì lệch tâm thực tế làm tăng mô men trong cột, có thể biến bài toán nén đúng tâm thành nén lệch tâm và giảm khả năng chịu lực.",
+    "eval_note": "Phải có: lệch tâm → tăng mô men → giảm khả năng.",
+    "section_hint": "Phần cột – sai số thi công"
+  },
+  {
+    "id": 122,
+    "question_vi": "TCVN 5574:2018 yêu cầu gì về kiểm soát chất lượng bê tông để dùng được cường độ tính toán trong thiết kế?",
+    "answer_key_vi": "Phải có kết quả thí nghiệm nén mẫu đạt mác/cấp thiết kế và bê tông được bảo dưỡng đúng, nếu không phải giảm cường độ tính toán.",
+    "eval_note": "Phải nêu: cần thí nghiệm đạt; nếu không đạt → giảm cường độ.",
+    "section_hint": "Phần vật liệu – xác định cường độ"
+  },
+  {
+    "id": 123,
+    "question_vi": "Theo TCVN 5574:2018, khi dầm có lỗ xuyên (opening) trong vùng chịu cắt thì phải làm gì?",
+    "answer_key_vi": "Phải tính lại khả năng chịu cắt và bố trí cốt đai hoặc dầm viền quanh lỗ để chuyển lực vòng tránh vùng lỗ.",
+    "eval_note": "Từ khóa: tính lại chịu cắt; dầm viền; chuyển lực.",
+    "section_hint": "Phần dầm có lỗ mở"
+  },
+  {
+    "id": 124,
+    "question_vi": "Trong TCVN 5574:2018, vì sao phải bố trí thép chống nứt nhiệt trên mái bê tông lớn?",
+    "answer_key_vi": "Vì bề mặt lớn chịu co ngót và chênh nhiệt sẽ nứt bề mặt, thép chống nứt giúp phân tán và hạn chế chiều rộng vết nứt.",
+    "eval_note": "Phải có: co ngót/nhiệt → nứt; thép để phân tán.",
+    "section_hint": "Phần cấu tạo – sàn mái"
+  },
+  {
+    "id": 125,
+    "question_vi": "TCVN 5574:2018 có cho phép dùng hệ số phân phối nội lực kinh nghiệm cho sàn không?",
+    "answer_key_vi": "Có, với các sơ đồ sàn, bản điển hình tiêu chuẩn cho phép dùng hệ số hoặc bảng nội lực kinh nghiệm thay vì mô hình số.",
+    "eval_note": "Phải có: cho phép hệ số/bảng nội lực.",
+    "section_hint": "Phần bản – nội lực tính sẵn"
+  },
+  {
+    "id": 126,
+    "question_vi": "Theo TCVN 5574:2018, khi liên kết tường bê tông với sàn hoặc dầm cần đảm bảo điều gì?",
+    "answer_key_vi": "Liên kết phải truyền được lực ngang và dọc giữa tường với hệ kết cấu chính, thường bằng neo thép chờ hoặc chôn sẵn.",
+    "eval_note": "Phải có: truyền lực; dùng thép neo.",
+    "section_hint": "Phần liên kết cấu kiện"
+  },
+  {
+    "id": 127,
+    "question_vi": "Khi bố trí cốt thép trong vùng chịu nén, TCVN 5574:2018 yêu cầu tối thiểu bao nhiêu thanh?",
+    "answer_key_vi": "Phải có tối thiểu 4 thanh đối với tiết diện vuông và 6 thanh đối với tiết diện tròn để bảo đảm làm việc đồng đều và buộc đai được.",
+    "eval_note": "Nêu được: 4 thanh (vuông), 6 thanh (tròn).",
+    "section_hint": "Phần cấu tạo cột"
+  },
+  {
+    "id": 128,
+    "question_vi": "Theo TCVN 5574:2018, tại sao phải khống chế khoảng cách giữa các đai trong cột tầng dưới nhỏ hơn tầng trên?",
+    "answer_key_vi": "Vì nội lực và nguy cơ dồn nén bê tông ở tầng dưới lớn hơn nên cần đai dày hơn để giữ cốt dọc và tăng khả năng chịu nén.",
+    "eval_note": "Phải có: tầng dưới nội lực lớn → đai dày.",
+    "section_hint": "Phần cấu tạo cột nhiều tầng"
+  },
+  {
+    "id": 129,
+    "question_vi": "TCVN 5574:2018 có quy định gì về bê tông không dằn kỹ hoặc có tổ ong?",
+    "answer_key_vi": "Bê tông tổ ong hoặc không đủ đặc chắc làm giảm khả năng chịu lực và bám dính, phải được xử lý hoặc không được tính đủ cường độ.",
+    "eval_note": "Phải có: giảm khả năng; phải xử lý/không tính đủ.",
+    "section_hint": "Phần yêu cầu thi công bê tông"
+  },
+  {
+    "id": 130,
+    "question_vi": "Theo TCVN 5574:2018, khi thay đổi cốt liệu hoặc nguồn vật liệu bê tông thì cần làm gì?",
+    "answer_key_vi": "Phải thí nghiệm lại để xác định mác/cấp và các đặc trưng cơ lý mới trước khi dùng để thiết kế.",
+    "eval_note": "Thí nghiệm lại khi đổi nguồn.",
+    "section_hint": "Phần vật liệu – kiểm soát chất lượng"
+  },
+  {
+    "id": 131,
+    "question_vi": "Khi kết cấu BTCT làm việc ở vùng thường xuyên ẩm ướt, TCVN 5574:2018 yêu cầu thế nào về lớp bảo vệ?",
+    "answer_key_vi": "Phải tăng bề dày lớp bê tông bảo vệ so với môi trường khô và dùng bê tông có độ chống thấm phù hợp.",
+    "eval_note": "Tăng lớp bảo vệ + bê tông chống thấm.",
+    "section_hint": "Phần môi trường ẩm ướt"
+  },
+  {
+    "id": 132,
+    "question_vi": "Theo TCVN 5574:2018, cần làm gì để đảm bảo cấu kiện đổ bê tông theo nhiều đợt vẫn làm việc toàn khối?",
+    "answer_key_vi": "Phải xử lý bề mặt mạch ngừng, bố trí thép xuyên qua mạch và đổ bê tông mới đúng quy trình để truyền lực qua mạch.",
+    "eval_note": "Mạch ngừng phải xử lý + thép xuyên.",
+    "section_hint": "Phần mạch ngừng bê tông"
+  },
+  {
+    "id": 133,
+    "question_vi": "TCVN 5574:2018 quy định gì về kết cấu có lỗ kỹ thuật đi qua dầm?",
+    "answer_key_vi": "Lỗ phải đặt ở vùng mô men nhỏ và phải tăng cường thép hoặc tiết diện xung quanh lỗ.",
+    "eval_note": "Lỗ đặt vùng mô men nhỏ + tăng cường.",
+    "section_hint": "Phần dầm có lỗ"
+  },
+  {
+    "id": 134,
+    "question_vi": "Theo TCVN 5574:2018, với dầm cao (tỷ lệ nhịp/thấp), cần kiểm tra gì ngoài uốn?",
+    "answer_key_vi": "Cần kiểm tra nén xiên và khả năng chịu cắt bằng mô hình dầm cao, bố trí cốt xiên hoặc đai dày.",
+    "eval_note": "Từ khóa: dầm cao → nén xiên → cốt xiên.",
+    "section_hint": "Phần dầm cao"
+  },
+  {
+    "id": 135,
+    "question_vi": "TCVN 5574:2018 có yêu cầu gì về việc tính toán khung không gian thay vì khung phẳng?",
+    "answer_key_vi": "Khi kết cấu làm việc không phẳng hoặc có tải không đối xứng, phải dùng mô hình không gian để phản ánh đúng độ cứng và nội lực.",
+    "eval_note": "Phải có: tải/điều kiện không phẳng → mô hình không gian.",
+    "section_hint": "Phần mô hình kết cấu"
+  },
+  {
+    "id": 136,
+    "question_vi": "Theo TCVN 5574:2018, khi sàn truyền tải về lõi cứng bê tông thì cần kiểm tra gì tại tiếp giáp?",
+    "answer_key_vi": "Phải kiểm tra lực cắt và lực chọc thủng quanh lõi, đồng thời bố trí thép vòng để truyền lực vào lõi.",
+    "eval_note": "Kiểm tra cắt/chọc thủng; thép vòng.",
+    "section_hint": "Phần sàn – lõi cứng"
+  },
+  {
+    "id": 137,
+    "question_vi": "TCVN 5574:2018 yêu cầu gì khi tổ hợp nội lực từ nhiều tải trọng khác nhau?",
+    "answer_key_vi": "Phải tổ hợp theo quy tắc của tiêu chuẩn tải trọng quốc gia, lấy nội lực bất lợi nhất để thiết kế.",
+    "eval_note": "Phải có: tổ hợp theo tiêu chuẩn tải trọng; lấy bất lợi nhất.",
+    "section_hint": "Phần tổ hợp nội lực"
+  },
+  {
+    "id": 138,
+    "question_vi": "Theo TCVN 5574:2018, vì sao phải tính đến độ cứng nứt của dầm khi tính võng?",
+    "answer_key_vi": "Vì sau khi nứt, độ cứng của dầm giảm đáng kể so với dầm chưa nứt, nếu không xét sẽ đánh giá thấp võng.",
+    "eval_note": "Phải có: nứt → giảm độ cứng → võng tăng.",
+    "section_hint": "Phần TTGH2 – võng sau nứt"
+  },
+  {
+    "id": 139,
+    "question_vi": "TCVN 5574:2018 có quy định gì về chuyển vị tầng trong nhà khung?",
+    "answer_key_vi": "Chuyển vị tầng phải trong giới hạn để không gây hư hỏng tường ngăn và để bảo đảm ổn định; giá trị giới hạn phụ thuộc chiều cao tầng và công năng.",
+    "eval_note": "Phải nói: chuyển vị tầng có giới hạn; bảo vệ tường ngăn.",
+    "section_hint": "Phần chuyển vị ngang"
+  },
+  {
+    "id": 140,
+    "question_vi": "Theo TCVN 5574:2018, khi cấu kiện chịu tải lặp lại nhiều chu kỳ cần kiểm tra gì?",
+    "answer_key_vi": "Cần kiểm tra mỏi cho cốt thép và bê tông ở các tiết diện chịu uốn và cắt.",
+    "eval_note": "Phải nhắc: kiểm tra mỏi.",
+    "section_hint": "Phần tải trọng lặp"
+  },
+  {
+    "id": 141,
+    "question_vi": "TCVN 5574:2018 hướng dẫn gì về liên kết dầm với cột trong vùng động đất?",
+    "answer_key_vi": "Phải tăng cường cốt đai dày tại nút khung, neo thẳng cốt dọc dầm và bảo đảm liên kết có khả năng dẻo.",
+    "eval_note": "Đai dày tại nút; neo thẳng; khả năng dẻo.",
+    "section_hint": "Phần cấu tạo kháng chấn (tham khảo tiêu chuẩn động đất)"
+  },
+  {
+    "id": 142,
+    "question_vi": "Theo TCVN 5574:2018, để đảm bảo bám dính tốt, khoảng cách từ cạnh cấu kiện đến thanh thép ngoài cùng phải thế nào?",
+    "answer_key_vi": "Phải không nhỏ hơn lớp bảo vệ tối thiểu quy định cho loại cấu kiện và môi trường làm việc.",
+    "eval_note": "Nhắc: không nhỏ hơn lớp bảo vệ tối thiểu.",
+    "section_hint": "Phần lớp bảo vệ cốt thép"
+  },
+  {
+    "id": 143,
+    "question_vi": "TCVN 5574:2018 có yêu cầu gì về kiểm tra xoắn trong dầm cầu thang hình chữ L?",
+    "answer_key_vi": "Khi có hình dạng lệch tâm tạo xoắn, phải tính xoắn kết hợp với uốn và bố trí cốt đai xoắn.",
+    "eval_note": "Từ khóa: tính xoắn + uốn; cốt đai xoắn.",
+    "section_hint": "Phần cấu kiện chịu xoắn"
+  },
+  {
+    "id": 144,
+    "question_vi": "Theo TCVN 5574:2018, vì sao cần giới hạn đường kính tối đa của cốt thép trong bản mỏng?",
+    "answer_key_vi": "Để bảo đảm lớp bảo vệ đủ và bê tông dễ đầm, đồng thời tránh nứt do thanh thép quá lớn.",
+    "eval_note": "Phải có: đầm dễ; lớp bảo vệ đủ; tránh nứt.",
+    "section_hint": "Phần cấu tạo bản"
+  },
+  {
+    "id": 145,
+    "question_vi": "TCVN 5574:2018 yêu cầu gì về việc gia cường tại chỗ kê của bản cầu thang?",
+    "answer_key_vi": "Phải bố trí thép trên tại chỗ kê và thép neo vào dầm hoặc tường để chịu mô men âm tại gối.",
+    "eval_note": "Thép trên gối; neo vào dầm/tường.",
+    "section_hint": "Phần cầu thang"
+  },
+  {
+    "id": 146,
+    "question_vi": "Theo TCVN 5574:2018, trong môi trường có tác dụng đóng băng tan băng thì bê tông phải đạt yêu cầu gì?",
+    "answer_key_vi": "Phải dùng bê tông có độ chống thấm và chống băng giá phù hợp, thường là bê tông đặc chắc với cấp bền và phụ gia phù hợp.",
+    "eval_note": "Chống thấm + chống băng giá.",
+    "section_hint": "Phần môi trường đặc biệt"
+  },
+  {
+    "id": 147,
+    "question_vi": "TCVN 5574:2018 có đề cập đến việc giảm hệ số làm việc của bê tông khi chịu uốn ngược không?",
+    "answer_key_vi": "Có, trong một số trường hợp phải xét giảm khả năng chịu nén của vùng bê tông bị đảo ứng suất.",
+    "eval_note": "Phải có: uốn ngược → giảm khả năng vùng nén.",
+    "section_hint": "Phần uốn hai chiều"
+  },
+  {
+    "id": 148,
+    "question_vi": "Theo TCVN 5574:2018, khi thiết kế dầm viền lỗ thang máy trong sàn, cần kiểm tra gì?",
+    "answer_key_vi": "Cần kiểm tra uốn và cắt của dầm viền do tải sàn truyền vào và bảo đảm neo thép từ bản vào dầm viền.",
+    "eval_note": "Uốn + cắt dầm viền; neo từ bản vào.",
+    "section_hint": "Phần sàn có lỗ lớn"
+  },
+  {
+    "id": 149,
+    "question_vi": "TCVN 5574:2018 có yêu cầu gì về liên kết giữa cấu kiện bê tông đúc sẵn và đổ tại chỗ?",
+    "answer_key_vi": "Liên kết phải bảo đảm truyền lực cắt và mô men, thường bằng thép neo chờ và lớp bê tông liên kết đổ tại chỗ.",
+    "eval_note": "Phải có: truyền cắt + mô men; thép neo + bê tông liên kết.",
+    "section_hint": "Phần kết cấu lắp ghép"
+  },
+  {
+    "id": 150,
+    "question_vi": "Theo TCVN 5574:2018, mục đích cuối cùng của các yêu cầu cấu tạo (đai dày, lớp bảo vệ, thép phân bố) là gì?",
+    "answer_key_vi": "Để bảo đảm kết cấu làm việc đúng giả thiết tính toán, bền lâu trong môi trường sử dụng và duy trì khả năng chịu lực khi có sai lệch thi công.",
+    "eval_note": "Ba ý: làm việc đúng giả thiết; bền lâu; chịu sai lệch.",
+    "section_hint": "Phần yêu cầu cấu tạo chung"
+  }  
+
+  
+]
+

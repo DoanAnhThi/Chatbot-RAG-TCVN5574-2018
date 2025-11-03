@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  rag-chatbot:
+    build: .
+    container_name: rag-chatbot
+    ports:
+      - "8080:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./app/vectorstore:/app/vectorstore
+    restart: unless-stopped
