@@ -10,7 +10,7 @@ This package provides multiple vector store implementations for storing and retr
 - **Persistence**: Local disk storage
 
 ```python
-from app.services.indexing.storage import FAISSVectorStore
+from src.services.indexing.storage import FAISSVectorStore
 from langchain_openai import OpenAIEmbeddings
 
 embeddings = OpenAIEmbeddings()
@@ -23,7 +23,7 @@ store = FAISSVectorStore(embeddings, vectorstore_dir="./vectorstore/faiss_index"
 - **Persistence**: Cloud storage
 
 ```python
-from app.services.indexing.storage import PineconeVectorStore
+from src.services.indexing.storage import PineconeVectorStore
 from langchain_openai import OpenAIEmbeddings
 
 embeddings = OpenAIEmbeddings()
@@ -41,7 +41,7 @@ store = PineconeVectorStore(
 - **Persistence**: Local disk storage
 
 ```python
-from app.services.indexing.storage import ChromaDBVectorStore
+from src.services.indexing.storage import ChromaDBVectorStore
 from langchain_openai import OpenAIEmbeddings
 
 embeddings = OpenAIEmbeddings()
@@ -58,7 +58,7 @@ store = ChromaDBVectorStore(
 - **Persistence**: Local or cloud storage
 
 ```python
-from app.services.indexing.storage import WeaviateVectorStore
+from src.services.indexing.storage import WeaviateVectorStore
 from langchain_openai import OpenAIEmbeddings
 
 embeddings = OpenAIEmbeddings()
@@ -75,7 +75,7 @@ store = WeaviateVectorStore(
 - **Persistence**: Local or cloud storage
 
 ```python
-from app.services.indexing.storage import QdrantVectorStore
+from src.services.indexing.storage import QdrantVectorStore
 from langchain_openai import OpenAIEmbeddings
 
 embeddings = OpenAIEmbeddings()
@@ -91,7 +91,7 @@ store = QdrantVectorStore(
 For easier configuration and switching between stores, use the `VectorStoreFactory`:
 
 ```python
-from app.services.indexing.storage import VectorStoreFactory
+from src.services.indexing.storage import VectorStoreFactory
 from langchain_openai import OpenAIEmbeddings
 
 embeddings = OpenAIEmbeddings()

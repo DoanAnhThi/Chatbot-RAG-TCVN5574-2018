@@ -1,7 +1,7 @@
 from datetime import datetime
 from fastapi import APIRouter
 
-from app.api.schemas.health import HealthResponse
+from src.api.schemas.health import HealthResponse
 
 router = APIRouter()
 

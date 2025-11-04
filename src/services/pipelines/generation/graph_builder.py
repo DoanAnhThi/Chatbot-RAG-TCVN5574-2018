@@ -1,6 +1,6 @@
 from typing import Dict, Any
 
-from app.services.pipelines.generation.answer_generator import generate_answer
+from src.services.pipelines.generation.answer_generator import generate_answer
 
 
 def build_generation_graph(retriever):

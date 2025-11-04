@@ -5,16 +5,16 @@ from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 from langchain_core.documents import Document
 
-from app.config import settings
+from src.config import settings
 from .base_vector_store import BaseVectorStore
 
 
 class FAISSVectorStore(BaseVectorStore):
     """FAISS-based vector store implementation"""
 
-    def __init__(self, embeddings: OpenAIEmbeddings, vectorstore_dir: str = "./vectorstore/faiss_index", **kwargs):
+    def __init__(self, embeddings: OpenAIEmbeddings, vectorstore_dir: Optional[str] = None, **kwargs):
         super().__init__(embeddings, **kwargs)
-        self.vectorstore_dir = vectorstore_dir
+        self.vectorstore_dir = vectorstore_dir or settings.vectorstore_dir
         self.vectorstore: Optional[FAISS] = None
 
     def add_documents(self, documents: List[Document]) -> None:

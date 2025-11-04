@@ -1,4 +1,4 @@
-from app.services.pipelines.generation.graph_builder import build_generation_graph
+from src.services.pipelines.generation.graph_builder import build_generation_graph
 
 # Re-export for backward compatibility
 def build_graph(retriever):

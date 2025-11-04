@@ -1,6 +1,6 @@
 from langchain_openai import OpenAIEmbeddings
 
-from app.config import settings
+from src.config import settings
 
 
 def create_embeddings_model() -> OpenAIEmbeddings:

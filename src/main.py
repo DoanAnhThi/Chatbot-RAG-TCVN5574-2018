@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api.route.health import router as health_router
-from app.api.route.query import router as query_router
+from src.api.route.health import router as health_router
+from src.api.route.query import router as query_router
 
 
 app = FastAPI(title="RAG Chatbot")

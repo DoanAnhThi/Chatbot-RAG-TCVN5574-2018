@@ -27,10 +27,15 @@ class Settings(BaseModel):
     openai_model: str = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
     embeddings_model: str = os.getenv("EMBEDDINGS_MODEL", "text-embedding-3-small")
 
-    data_dir: str = _default_path("DATA_DIR", "/app/data", "data")
-    vectorstore_dir: str = _default_path(
-        "VECTORSTORE_DIR", "/app/vectorstore/faiss_index", "app/vectorstore/faiss_index"
+    data_dir: str = _default_path("DATA_DIR", "/app/data/raw", "data/raw")
+    processed_data_dir: str = _default_path(
+        "PROCESSED_DATA_DIR", "/app/data/processed", "data/processed"
     )
+    vectorstore_dir: str = _default_path(
+        "VECTORSTORE_DIR", "/app/vectorstore/faiss_index", "vectorstore/faiss_index"
+    )
+
+    primary_language: str | None = os.getenv("PRIMARY_LANGUAGE")
 
     retrieval_top_k: int = int(os.getenv("RETRIEVAL_TOP_K", "4"))
     confidence_threshold: float = float(os.getenv("CONFIDENCE_THRESHOLD", "0.7"))

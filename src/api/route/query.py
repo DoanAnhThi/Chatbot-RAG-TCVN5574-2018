@@ -3,11 +3,11 @@ from fastapi import APIRouter, HTTPException
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
-from app.config import settings
-from app.services.indexing.indexer import build_or_load_vectorstore
-from app.services.pipelines.retrieval.retriever import get_retriever
-from app.services.pipelines.generation.generation import build_graph
-from app.api.schemas.query import ChatRequest, ChatResponse
+from src.config import settings
+from src.services.indexing.indexer import build_or_load_vectorstore
+from src.services.pipelines.retrieval.retriever import get_retriever
+from src.services.pipelines.generation.generation import build_graph
+from src.api.schemas.query import ChatRequest, ChatResponse
 
 router = APIRouter()
 
@@ -32,6 +32,25 @@ def _startup():
         ensure_graph()
     except Exception:
         pass
+
+
+@router.get("/", response_class=HTMLResponse)
+async def status_page():
+    return HTMLResponse(
+        """
+        <html>
+            <head>
+                <title>RAG Chatbot</title>
+            </head>
+            <body style="font-family:Arial, sans-serif; margin:2rem;">
+                <h1>RAG Chatbot backend is running</h1>
+                <p>Use the <code>/chat</code> endpoint to interact with the API.</p>
+                <p>Health check: <a href="/health">/health</a></p>
+            </body>
+        </html>
+        """,
+        status_code=200,
+    )
 
 
 # Serve minimal frontend
